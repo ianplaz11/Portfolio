@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f3f2ee">
+    <meta name="description" content="The portfolio of Marc Ian C. Plazos, an Information Technology student interested in web development and practical digital solutions.">
+    <title>Marc Ian C. Plazos — IT Student</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Marc Ian Plazos, home">
+        <span class="brand-mark">M<span>.</span></span>
+        <span class="brand-name">MARC IAN <span>PLAZOS</span></span>
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button theme-toggle" type="button" aria-label="Switch to light theme" title="Toggle color theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg>
+        </button>
+        <a class="availability" href="#about"><span class="status-dot"></span> BSIT STUDENT</a>
+        <button class="icon-button menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="main-nav">
+          <span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section-shell" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> ASPIRING IT PROFESSIONAL · BSIT STUDENT</p>
+          <h1>Marc Ian<br>C. Plazos<span class="accent-period">.</span></h1>
+          <p class="hero-description">I’m an Information Technology student interested in web and software development, and in how thoughtful technology can solve real-world problems.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View projects <span aria-hidden="true">↘</span></a>
+            <a class="button button-secondary" href="#resume">View my resume <span aria-hidden="true">↘</span></a>
+            <a class="hero-contact-link" href="#contact">Get in touch</a>
+          </div>
+        </div>
+
+        <figure class="hero-photo">
+          <img src="assets/profile-photo.png" alt="Marc Ian Plazos">
+        </figure>
+
+        <a class="scroll-cue" href="#projects"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="about-section section-shell" id="about" aria-labelledby="about-heading">
+        <div class="about-layout">
+          <div class="about-content" data-reveal>
+            <div class="about-title">
+              <h2 id="about-heading">About Me</h2>
+              <h3>Turning Ideas Into Digital Experiences</h3>
+            </div>
+            <p class="about-intro">Hi! I’m <strong>Marc Ian C. Plazos</strong>, an aspiring IT professional studying for a Bachelor of Science in Information Technology at Bukidnon State University.</p>
+            <div class="about-details">
+              <p class="about-body">I’m interested in web and software development, and in exploring how technology can solve real-world problems. Through my studies, I’ve developed skills in programming, database management, and building responsive, user-friendly applications.</p>
+              <p class="about-body">I enjoy learning new technologies and turning ideas into functional digital solutions. I see every project as a chance to improve, and my goal is to keep growing and create meaningful solutions through technology.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work-section section-shell" id="projects" aria-labelledby="projects-heading">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> PROJECTS</p><h2 id="projects-heading">Selected projects<span class="accent-period">.</span></h2></div>
+          <p class="section-intro">A selection of web and mobile applications built to make everyday services easier to manage and use.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card" data-reveal data-project-card data-title="Smart Scheduling in BUKSU (IT Department)" data-category="WEB APPLICATION" data-description="A web application for the BUKSU IT Department that centralizes class scheduling. It helps staff organize subjects, rooms, instructors, and time slots, making it easier to coordinate schedules, identify conflicts, and maintain an updated academic timetable." data-technologies="Class, room, instructor, and time-slot scheduling; schedule conflict identification; academic timetable management.">
+            <p class="project-card-index">01 <span>—</span> CLASS SCHEDULING SYSTEM</p>
+            <div class="project-carousel" data-carousel role="region" aria-roledescription="carousel" aria-label="Smart Scheduling in BUKSU screenshots">
+              <div class="project-visual">
+                <img class="project-image is-active" src="assets/smart-scheduling-welcome.jpg" alt="Welcome screen with administrator and instructor options" decoding="async">
+                <img class="project-image" src="assets/smart-scheduling-dashboard.jpg" alt="Instructor login screen for the BUKSU class scheduling system" decoding="async" aria-hidden="true">
+                <img class="project-image" src="assets/smart-scheduling-notifications.jpg" alt="Notifications screen showing class schedule updates" decoding="async" aria-hidden="true">
+                <img class="project-image" src="assets/smart-scheduling-management.jpg" alt="Schedule management screen showing class sections and timetable entries" decoding="async" aria-hidden="true">
+              </div>
+              <div class="project-carousel-controls">
+                <div class="project-carousel-dots" role="group" aria-label="Select project screenshot">
+                  <button type="button" aria-label="Show screenshot 1 of 4" aria-current="true"></button><button type="button" aria-label="Show screenshot 2 of 4"></button><button type="button" aria-label="Show screenshot 3 of 4"></button><button type="button" aria-label="Show screenshot 4 of 4"></button>
+                </div>
+                <button class="project-carousel-toggle" type="button" aria-label="Pause slideshow" aria-pressed="false">Pause</button>
+              </div>
+            </div>
+            <div class="project-info"><div><h3>Smart Scheduling in BUKSU</h3><p class="project-description">A scheduling platform that helps the BUKSU IT Department coordinate classes, manage resources, and keep its academic timetable up to date.</p></div><button class="project-open" type="button" data-project="0" aria-label="View Smart Scheduling in BUKSU details">↗</button></div>
+          </article>
+          <article class="project-card" data-reveal data-project-card data-title="Queueless" data-category="QUEUE MANAGEMENT APPLICATION" data-description="A phone-based queue application that lets students join a queue, view their position, and monitor service progress without waiting in person. It is paired with a department website where administrators manage queue entries, update service status, and serve students in an organized order." data-technologies="Firebase; Expo Go; mobile queue app; department queue management website.">
+            <p class="project-card-index">02 <span>—</span> QUEUE MANAGEMENT SYSTEM</p>
+            <div class="project-carousel" data-carousel role="region" aria-roledescription="carousel" aria-label="Queueless mobile app and admin website screenshots">
+              <div class="project-visual">
+                <img class="project-image is-active" src="assets/queueless-admin-overview.png" alt="Queueless administrator dashboard with account and staffing overview" loading="lazy" decoding="async">
+                <img class="project-image" src="assets/queueless-staff-welcome.png" alt="Queueless staff welcome screen with account creation and start options" loading="lazy" decoding="async" aria-hidden="true">
+                <img class="project-image" src="assets/queueless-generate-qr.png" alt="Queueless mobile screen for generating a service queue QR code" loading="lazy" decoding="async" aria-hidden="true">
+                <img class="project-image" src="assets/queueless-profile.png" alt="Queueless mobile profile with registered account and department details" loading="lazy" decoding="async" aria-hidden="true">
+              </div>
+              <div class="project-carousel-controls">
+                <div class="project-carousel-dots" role="group" aria-label="Select project screenshot">
+                  <button type="button" aria-label="Show screenshot 1 of 4" aria-current="true"></button><button type="button" aria-label="Show screenshot 2 of 4"></button><button type="button" aria-label="Show screenshot 3 of 4"></button><button type="button" aria-label="Show screenshot 4 of 4"></button>
+                </div>
+                <button class="project-carousel-toggle" type="button" aria-label="Pause slideshow" aria-pressed="false">Pause</button>
+              </div>
+            </div>
+            <div class="project-info"><div><h3>Queueless</h3><p class="project-description">A mobile queue app and department website that help students track their place in line while administrators manage service flow.</p></div><button class="project-open" type="button" data-project="1" aria-label="View Queueless project details">↗</button></div>
+          </article>
+          <article class="project-card" data-reveal data-project-card data-title="Queueless System BUKSU Department" data-category="DEPARTMENT QUEUE-MANAGEMENT WEBSITE" data-description="A department queue-management website that digitizes the process of requesting and tracking services at BUKSU. Students can join a queue and follow the service process conveniently, while staff manage requests and serve people in order." data-technologies="Laravel; PHP; Blade; XAMPP; HTML; CSS; JavaScript.">
+            <p class="project-card-index">03 <span>—</span> DEPARTMENT QUEUE SYSTEM</p>
+            <div class="project-carousel" data-carousel role="region" aria-roledescription="carousel" aria-label="Queueless BUKSU department website screenshots">
+              <div class="project-visual">
+                <img class="project-image is-active" src="assets/queueless-department-activity-logs.jpg" alt="Queueless central administrator activity logs for tenant and office activity" loading="lazy" decoding="async">
+                <img class="project-image" src="assets/queueless-department-dashboard.jpg" alt="Queueless central dashboard showing tenants, plans, and subscriptions" loading="lazy" decoding="async" aria-hidden="true">
+                <img class="project-image" src="assets/queueless-department-support.jpg" alt="Queueless central support inbox with tenant conversation" loading="lazy" decoding="async" aria-hidden="true">
+                <img class="project-image" src="assets/queueless-department-notifications.jpg" alt="Queueless central notifications showing a support thread update" loading="lazy" decoding="async" aria-hidden="true">
+              </div>
+              <div class="project-carousel-controls">
+                <div class="project-carousel-dots" role="group" aria-label="Select project screenshot">
+                  <button type="button" aria-label="Show screenshot 1 of 4" aria-current="true"></button><button type="button" aria-label="Show screenshot 2 of 4"></button><button type="button" aria-label="Show screenshot 3 of 4"></button><button type="button" aria-label="Show screenshot 4 of 4"></button>
+                </div>
+                <button class="project-carousel-toggle" type="button" aria-label="Pause slideshow" aria-pressed="false">Pause</button>
+              </div>
+            </div>
+            <div class="project-info"><div><h3>Queueless System BUKSU Department</h3><p class="project-description">A department queue-management website that helps BUKSU students track service requests while staff organize and manage queues.</p></div><button class="project-open" type="button" data-project="2" aria-label="View Queueless System BUKSU Department details">↗</button></div>
+          </article>
+          <article class="project-card" data-reveal data-project-card data-title="Eloan" data-category="MOBILE LOAN APPLICATION SYSTEM" data-description="A mobile loan application system with face verification that allows BukSU employees to conveniently apply for loans, track application status, and manage loan transactions while administrators streamline loan processing and approval." data-technologies="Mobile application; face verification; loan application and status tracking; loan transaction management; administrative processing and approval.">
+            <p class="project-card-index">04 <span>—</span> ELOAN MANAGEMENT SYSTEM</p>
+            <div class="project-carousel" data-carousel role="region" aria-roledescription="carousel" aria-label="Eloan application and administrator screenshots">
+              <div class="project-visual">
+                <img class="project-image is-active" src="assets/eloan-super-admin-dashboard.png" alt="Eloan super administrator dashboard showing staff, members, approvals, and loan applications" loading="lazy" decoding="async">
+                <img class="project-image" src="assets/eloan-bookkeeper-application-review.png" alt="Eloan bookkeeper application review with loan and applicant information and verification actions" loading="lazy" decoding="async" aria-hidden="true">
+                <img class="project-image" src="assets/eloan-role-selection.png" alt="Eloan registration role selection for bookkeeper, treasurer, credit committee, and account member officer" loading="lazy" decoding="async" aria-hidden="true">
+                <img class="project-image" src="assets/eloan-credit-committee-dashboard.png" alt="Eloan credit committee dashboard showing applications awaiting review and recent decisions" loading="lazy" decoding="async" aria-hidden="true">
+              </div>
+              <div class="project-carousel-controls">
+                <div class="project-carousel-dots" role="group" aria-label="Select project screenshot">
+                  <button type="button" aria-label="Show screenshot 1 of 4" aria-current="true"></button><button type="button" aria-label="Show screenshot 2 of 4"></button><button type="button" aria-label="Show screenshot 3 of 4"></button><button type="button" aria-label="Show screenshot 4 of 4"></button>
+                </div>
+                <button class="project-carousel-toggle" type="button" aria-label="Pause slideshow" aria-pressed="false">Pause</button>
+              </div>
+            </div>
+            <div class="project-info"><div><h3>Eloan</h3><p class="project-description">A mobile loan system that helps BukSU employees apply for loans and track progress while administrators coordinate review and approval.</p></div><button class="project-open" type="button" data-project="3" aria-label="View Eloan project details">↗</button></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="skills-section section-shell" id="skills" aria-labelledby="skills-heading">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> SKILLS</p><h2 id="skills-heading">What I bring<span class="accent-period">.</span></h2></div>
+          <p class="section-intro">A mix of technical knowledge, practical experience, and a thoughtful approach to working with others.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skills-card" data-reveal>
+            <p class="skills-card-index">01 / TECHNICAL SKILLS</p>
+            <h3>Building for the web and beyond.</h3>
+            <p class="skills-card-description">The languages, frameworks, and development practices I use to shape digital products.</p>
+            <div class="skills-group">
+              <h4>Web Development</h4>
+              <ul>
+                <li>HTML &amp; CSS</li>
+                <li>JavaScript</li>
+                <li>Responsive Web Design</li>
+                <li>React.js</li>
+                <li>Node.js &amp; Express.js</li>
+              </ul>
+            </div>
+            <div class="skills-group">
+              <h4>Programming &amp; Frameworks</h4>
+              <ul>
+                <li>PHP</li>
+                <li>Java</li>
+                <li>C Programming</li>
+                <li>Laravel</li>
+                <li>React Native (Expo)</li>
+              </ul>
+            </div>
+            <div class="skills-group">
+              <h4>Databases &amp; Tools</h4>
+              <ul>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+                <li>MongoDB</li>
+                <li>Firebase</li>
+                <li>Git &amp; GitHub</li>
+              </ul>
+            </div>
+          </article>
+          <article class="skills-card" data-reveal>
+            <p class="skills-card-index">02 / PRACTICAL SKILLS</p>
+            <h3>Making technology work in the real world.</h3>
+            <p class="skills-card-description">Hands-on technical experience in configuring systems, managing development environments, and solving common hardware and software problems.</p>
+            <div class="skills-group">
+              <ul>
+                <li>Operating System Installation</li>
+                <li>Computer Setup &amp; Configuration</li>
+                <li>Basic Networking</li>
+                <li>Computer Troubleshooting</li>
+                <li>Hardware Cleaning &amp; Maintenance</li>
+                <li>Database Management</li>
+                <li>Development Environment Setup</li>
+                <li>Basic IoT and Arduino Projects</li>
+              </ul>
+            </div>
+          </article>
+          <article class="skills-card" data-reveal>
+            <p class="skills-card-index">03 / SOFT SKILLS</p>
+            <h3>Growing through collaboration and continuous learning.</h3>
+            <p class="skills-card-description">The personal qualities and work habits that help me contribute to projects, collaborate with others, and continuously improve.</p>
+            <div class="skills-group">
+              <ul>
+                <li>Teamwork &amp; Collaboration</li>
+                <li>Problem-Solving</li>
+                <li>Adaptability</li>
+                <li>Time Management</li>
+                <li>Communication</li>
+                <li>Initiative</li>
+                <li>Willingness to Learn</li>
+                <li>Responsibility &amp; Accountability</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="certificates-section section-shell" id="certificates" aria-labelledby="certificates-heading">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> CREDENTIALS</p><h2 id="certificates-heading">Certificates<span class="accent-period">.</span></h2></div>
+          <p class="section-intro">Courses and credentials that reflect my continued learning in networking and responsible technology.</p>
+        </div>
+        <div class="certificate-grid">
+          <article class="certificate-card">
+            <div class="certificate-preview">
+              <iframe src="assets/ccna-switching-routing-wireless-essentials-certificate.pdf#view=Fit&amp;toolbar=0&amp;navpanes=0" title="CCNA course completion certificate preview" loading="lazy" scrolling="no" tabindex="-1"></iframe>
+              <a class="certificate-preview-link" href="assets/ccna-switching-routing-wireless-essentials-certificate.pdf" target="_blank" rel="noopener" aria-label="View CCNA course completion certificate"></a>
+            </div>
+            <p class="certificate-index">03 / COURSE COMPLETION</p>
+            <h3>CCNA Course Completion</h3>
+            <p class="certificate-description">Completed the CCNA course and demonstrated practical knowledge of VLANs, routing, redundancy, wireless security, and IPv4 and IPv6 networking.</p>
+            <p class="certificate-issued">Issued December 23, 2025</p>
+            <div class="certificate-actions">
+              <a href="assets/ccna-switching-routing-wireless-essentials-certificate.pdf" target="_blank" rel="noopener">View certificate <span aria-hidden="true">↗</span></a>
+              <a href="assets/ccna-switching-routing-wireless-essentials-certificate.pdf" download="Marc-Ian-Plazos-CCNA-Certificate.pdf">Download PDF <span aria-hidden="true">↓</span></a>
+            </div>
+          </article>
+          <article class="certificate-card">
+            <div class="certificate-preview">
+              <iframe src="assets/introduction-to-ai-literacy-certificate.pdf#view=Fit&amp;toolbar=0&amp;navpanes=0" title="Introduction to AI Literacy and Responsible Use certificate preview" loading="lazy" scrolling="no" tabindex="-1"></iframe>
+              <a class="certificate-preview-link" href="assets/introduction-to-ai-literacy-certificate.pdf" target="_blank" rel="noopener" aria-label="View Introduction to AI Literacy and Responsible Use certificate"></a>
+            </div>
+            <p class="certificate-index">04 / AI LITERACY</p>
+            <h3>Introduction to AI Literacy and Responsible Use</h3>
+            <p class="certificate-description">Completed a micro-credentials course focused on understanding artificial intelligence and using AI thoughtfully, safely, and responsibly.</p>
+            <p class="certificate-issued">Issued September 14, 2026</p>
+            <div class="certificate-actions">
+              <a href="assets/introduction-to-ai-literacy-certificate.pdf" target="_blank" rel="noopener">View certificate <span aria-hidden="true">↗</span></a>
+              <a href="assets/introduction-to-ai-literacy-certificate.pdf" download="Marc-Ian-Plazos-AI-Literacy-Certificate.pdf">Download PDF <span aria-hidden="true">↓</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="resume-section section-shell" id="resume" aria-labelledby="resume-heading">
+        <div class="resume-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> RESUME</p>
+          <h2 id="resume-heading">Explore my experience, skills, and qualifications.</h2>
+          <p class="resume-description">View my complete resume online or download a copy for later reference.</p>
+          <div class="resume-actions">
+            <a class="resume-action resume-action-primary" href="assets/Marc-Ian-Plazos-Resume.pdf" target="_blank" rel="noopener" aria-label="View my resume in a new tab">View Resume <span aria-hidden="true">↗</span></a>
+            <a class="resume-action resume-action-secondary" href="assets/Marc-Ian-Plazos-Resume.pdf" download="Marc-Ian-Plazos-Resume.pdf">Download PDF <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="resume-preview">
+          <iframe src="assets/Marc-Ian-Plazos-Resume.pdf#view=Fit&amp;toolbar=0&amp;navpanes=0" title="Resume PDF preview" loading="lazy" scrolling="no"></iframe>
+        </div>
+      </section>
+
+      <section class="contact-section section-shell" id="contact" aria-labelledby="contact-heading">
+        <div class="contact-top"><p class="eyebrow"><span class="eyebrow-line"></span> LET’S CONNECT</p><span class="contact-asterisk" aria-hidden="true">✳</span></div>
+        <h2 id="contact-heading">Let’s make<br><span class="serif-word">it</span> mean <span class="accent-text">something.</span></h2>
+        <div class="contact-bottom">
+          <p>Have a project, an idea, or just want to say hi?<br>My inbox is always open.</p>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:ianplaz11@gmail.com">Email me <span aria-hidden="true">↗</span></a>
+            <button class="copy-email" type="button" data-email="ianplaz11@gmail.com">COPY EMAIL <span aria-hidden="true">⎘</span></button>
+          </div>
+        </div>
+        <div class="social-heading">
+          <p>Find me around the web</p>
+          <span>LET’S CONNECT <span aria-hidden="true">↗</span></span>
+        </div>
+        <nav class="social-links" aria-label="Social media and email">
+          <a class="social-card" data-reveal href="https://www.facebook.com/plazos.ian" target="_blank" rel="noopener noreferrer" aria-label="Visit Marc Ian on Facebook (opens in a new tab)">
+            <span class="social-card-top">
+              <span class="social-icon facebook-icon" aria-hidden="true">f</span>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </span>
+            <span class="social-copy"><small>01 / SOCIAL</small><strong>Facebook</strong><span>facebook.com/plazos.ian</span></span>
+          </a>
+          <a class="social-card" data-reveal href="https://www.instagram.com/mrc_iann/" target="_blank" rel="noopener noreferrer" aria-label="Visit Marc Ian on Instagram (opens in a new tab)">
+            <span class="social-card-top">
+              <span class="social-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle class="icon-dot" cx="17.7" cy="6.8" r="1"></circle></svg>
+              </span>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </span>
+            <span class="social-copy"><small>02 / SOCIAL</small><strong>Instagram</strong><span>instagram.com/mrc_iann</span></span>
+          </a>
+          <a class="social-card" data-reveal href="mailto:ianplaz11@gmail.com">
+            <span class="social-card-top">
+              <span class="social-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m4 7 8 6 8-6"></path></svg>
+              </span>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </span>
+            <span class="social-copy"><small>03 / SAY HELLO</small><strong>Email</strong><span>ianplaz11@gmail.com</span></span>
+          </a>
+        </nav>
+        <p class="copy-status" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell"><a class="footer-brand" href="#home">M<span>.</span></a><span>MADE WITH INTENTION <span class="footer-heart">✳</span> © <span id="current-year"></span> MARC IAN PLAZOS</span><a class="back-top" href="#home">BACK TO TOP ↑</a></footer>
+
+    <dialog class="project-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description">
+      <button class="dialog-close" type="button" aria-label="Close project details">×</button>
+      <p class="eyebrow"><span class="eyebrow-line"></span> PROJECT NOTES</p>
+      <p class="dialog-category"></p><h2 id="dialog-title"></h2><p class="dialog-description" id="dialog-description"></p>
+      <div class="dialog-technologies"><span>PROJECT DETAILS</span><p class="dialog-technology-list"></p></div>
+    </dialog>
+  </body>
+</html>
